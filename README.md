@@ -64,9 +64,10 @@ To publish your npm package, execute the command `npm publish`. This will make y
 
 To install your package, you can run the command npm i your-package-name. This will download and install your package into your project's node_modules directory.
 
-After the installation is complete, you can verify if your package is listed in the dependencies section of your package.json file. It should appear as "your-package-name": "version".
+After the installation is complete, you can verify if your package is listed in the dependencies section of your package.json file. It should appear as ` "your-package-name": "version" `.
 
 Once your package is installed and listed as a dependency, you can import and use it in your project. Here's an example of how you can import and work with your package in a simple project:
+
 ```
 // Import your package
 const yourPackage = require('your-package-name');
@@ -80,7 +81,9 @@ yourPackage.helloWorld(); // Assuming `helloWorld()` is a function exported from
 Feel free to customize the code snippet according to your package's functionality and how you want to use it in your project.
 
 
-> Congratulations! You have successfully created an npm package and shared it with the world.
+
+
+> ***Congratulations! You have successfully created an npm package and shared it with the world.***
 
 ---
 
